@@ -1,5 +1,6 @@
 #include <iostream>
-
+#include "Headers/test.hpp"
 int main() {
-	std::cout << "Hello World!";
+	test t;
+	std::cout << t.aplusb(1, 2) << std::endl;
 }
